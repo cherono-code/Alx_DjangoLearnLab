@@ -10,7 +10,8 @@ book.save()
 updated_book = Book.objects.get(id=1)
 print(f"Updated book: {updated_book}")
 print(f"New title: {updated_book.title}")
-# Expected output: Updated book: Nineteen Eighty-Four by George Orwell (1949)
+# Output:
+# Updated book: Nineteen Eighty-Four by George Orwell (1949)
 # New title: Nineteen Eighty-Four
 ```
 
